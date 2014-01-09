@@ -2,8 +2,8 @@
 
 apt-get update 
 
-apt-get upgrade
+apt-get -y upgrade
 
-apt-get install ubuntu-desktop
+apt-get -y install ubuntu-desktop
 
-apt-get install vnc4server
+apt-get -y install vnc4server
