@@ -22,3 +22,4 @@ echo -e "${red}run scripts${NC}"
 echo -e "${red}clean up${NC}"
 cd ..
 rm -r installSetup
+rm $0
