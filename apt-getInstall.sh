@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo apt-getting
+
 apt-get update 
 
 apt-get -y upgrade
