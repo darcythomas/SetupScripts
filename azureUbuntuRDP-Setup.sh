@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
 
-# place to contain the mess
+echo place to contain the mess
 mkdir installSetup
 cd installSetup
 
 
-#get files
+echo get files
 wget --no-check-certificate https://raw2.github.com/darcythomas/SetupScripts/master/apt-getInstall.sh 
 
 
-#run scripts
+echo run scripts
 bash apt-getInstall.sh
 
 
 
 
-#clean up
+echo clean up
 cd ..
 rm -r /installSetup
