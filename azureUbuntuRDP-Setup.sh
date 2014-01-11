@@ -41,6 +41,7 @@ cd installSetup
 
 echo get files | colorize RED
 #wget --no-check-certificate https://raw2.github.com/darcythomas/SetupScripts/master/apt-getInstall.sh && bash ./apt-getInstall.sh
+wget --no-check-certificate https://raw2.github.com/darcythomas/SetupScripts/master/xstartup
 wget --no-check-certificate https://raw2.github.com/darcythomas/SetupScripts/master/vncserverSetup.sh && bash ./vncserverSetup.sh
 
 
