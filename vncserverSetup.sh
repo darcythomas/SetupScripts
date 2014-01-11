@@ -8,4 +8,4 @@ sudo cp ./xstartup ~/.vnc/xstartup
 
 vncserver -geometry 1440x900 
 
-/etc/init.d/xrdp start
+sudo /etc/init.d/xrdp start
