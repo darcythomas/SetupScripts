@@ -1,9 +1,20 @@
 #!/usr/bin/env bash
 
-apt-get update 
+# place to contain the mess
+mkdir installSetup
+cd installSetup
 
-apt-get -y upgrade
 
-apt-get -y install ubuntu-desktop
+#get files
+wget --no-check-certificate https://raw2.github.com/darcythomas/SetupScripts/master/apt-getInstall.sh 
 
-apt-get -y install vnc4server
+
+#run scripts
+bash apt-getInstall.sh
+
+
+
+
+#clean up
+cd ..
+rm -r /installSetup
