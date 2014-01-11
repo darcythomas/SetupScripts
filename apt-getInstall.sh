@@ -9,3 +9,5 @@ apt-get -y upgrade
 apt-get -y install ubuntu-desktop
 
 apt-get -y install vnc4server
+
+apt-get -y install xrdp

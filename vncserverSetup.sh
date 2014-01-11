@@ -2,6 +2,10 @@ echo setup vnc server
 
 vncserver 
 
-vncserver -kill :1
+sudo vncserver -kill :1
 
-cp ./xstartup ~/.vnc/xstartup 
+sudo cp ./xstartup ~/.vnc/xstartup 
+
+vncserver -geometry 1440x900 
+
+/etc/init.d/xrdp start
