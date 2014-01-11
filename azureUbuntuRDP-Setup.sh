@@ -1,27 +1,25 @@
 #!/usr/bin/env bash
    
-Red          ='\033[0;31'    
-NC           ='\033[0m' # No Color
 
 # colorize stdin according to parameter passed (GREEN, CYAN, BLUE, YELLOW)
 colorize(){
     NORMAL="\033[m"	
-	BLACK        ='\033[0;30'     
-	BLUE         ='\033[0;34'    
-	GREEN        ='\033[0;32'    
-	CYAN         ='\033[0;36'    
-	RED          ='\033[0;31'    
-	PURPLE       ='\033[0;35'    
-	BROWNORANGE  ='\033[0;33'    
-	LIGHTGRAY    ='\033[0;37'
-	DARKGRAY     ='\033[1;30'    
-	LIGHTBLUE    ='\033[1;34'
-	LIGHTGREEN   ='\033[1;32'
-	LIGHTCYAN    ='\033[1;36'
-	LIGHTRED     ='\033[1;31'
-	LIGHTPURPLE  ='\033[1;35'
-	YELLOW       ='\033[1;33'
-	WHITE        ='\033[1;37'
+	BLACK='\033[0;30'     
+	BLUE='\033[0;34'    
+	GREEN='\033[0;32'    
+	CYAN='\033[0;36'    
+	RED='\033[0;31'    
+	PURPLE='\033[0;35'    
+	BROWNORANGE='\033[0;33'    
+	LIGHTGRAY='\033[0;37'
+	DARKGRAY='\033[1;30'    
+	LIGHTBLUE='\033[1;34'
+	LIGHTGREEN='\033[1;32'
+	LIGHTCYAN='\033[1;36'
+	LIGHTRED='\033[1;31'
+	LIGHTPURPLE='\033[1;35'
+	YELLOW='\033[1;33'
+	WHITE='\033[1;37'
 
     color=\$${1:-NORMAL}
     # activate color passed as argument
