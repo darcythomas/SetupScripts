@@ -41,7 +41,7 @@ cd installSetup
 
 echo get files | colorize RED
 wget --no-check-certificate https://raw2.github.com/darcythomas/SetupScripts/master/apt-getInstall.sh 
-wget --no-check-certificate https://raw2.github.com/darcythomas/SetupScripts/master/colorCodes.sh
+
 
 
 echo Permission scripts | colorize RED
