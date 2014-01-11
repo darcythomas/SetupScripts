@@ -17,4 +17,4 @@ bash apt-getInstall.sh
 
 echo clean up
 cd ..
-rm -r /installSetup
+rm -r installSetup
